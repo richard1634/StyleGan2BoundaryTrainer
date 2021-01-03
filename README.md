@@ -4,5 +4,5 @@ The goal of this [Google Colab](https://colab.research.google.com/) notebook is 
 ## Usage
 
 To discover how to project a real image using the original StyleGAN2 implementation, run:
--   [`make_latent_vectors.ipynb`][stylegan2_project_images]
-[![Open In Colab][colab-badge]][stylegan2_project_images]
+-   [`Make_latent_vectors.ipynb`][Make_latent_vectors]
+[![Open In Colab][colab-badge]][Make_latent_vectors]
