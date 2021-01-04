@@ -41,6 +41,6 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 ![alt_text](https://user-images.githubusercontent.com/36825309/103577012-e0dc8800-4e88-11eb-81b0-f8d522ae0441.png) <br/>
 
 References: 
-Image projection: https://github.com/rolux/stylegan2encoder
-I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images
-Pretrained latent directions to play around with: https://github.com/a312863063/
+Image projection: https://github.com/rolux/stylegan2encoder <br/>
+I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images <br/>
+Pretrained latent directions to play around with: https://github.com/a312863063/ <br/>
