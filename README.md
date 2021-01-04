@@ -31,9 +31,12 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/apply_latent_directions.ipynb)
 
 <br/>
-All projections, classifying, boundary training, and linear intepolation were done using `W(18,512)` dimension latent vectors rather than `W(1,512)` originaly suggestion in the StyleGan2 paper. <br/>
+All projections, classifying, boundary training, and linear intepolation were done using `W(18,512)` dimension latent vectors rather than `W(1,512)` originaly suggestion in the StyleGan2 paper. 
 
-From [Woctezuma's read.me][wocts-readme]: <br/>
+
+From [Woctezuma's read.me][wocts-readme]: 
+
+
 For more information about `W(1,*)` and `W(18,*)`, please refer to the [the original paper][stylegan2-paper] (section 5 on page 7):
 
 > Inverting the synthesis network $g$ is an interesting problem that has many applications.
