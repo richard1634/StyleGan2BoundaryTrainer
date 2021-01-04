@@ -32,6 +32,6 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 
 Results:
 
-
+![alt_text](https://user-images.githubusercontent.com/36825309/103576401-ee454280-4e87-11eb-9f3a-834c95145caa.jpg)
 
 References: 
