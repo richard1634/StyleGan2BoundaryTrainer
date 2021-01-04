@@ -31,7 +31,10 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 
 
 Results:
-
+Giving faces glasses
+### Open source directions from https://github.com/a312863063/
 ![alt_text](https://user-images.githubusercontent.com/36825309/103576401-ee454280-4e87-11eb-9f3a-834c95145caa.jpg)
 
+### Results using my own latent directions
+![alt_text](https://user-images.githubusercontent.com/36825309/103576558-2f3d5700-4e88-11eb-92c2-214880f8ab6c.png)
 References: 
