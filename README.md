@@ -5,8 +5,8 @@ The basic steps include: <br />
 
 1.) Projecting images to latent space using rolux's enconder. reference: https://github.com/rolux/stylegan2encoder <br />
 2.) Hand classifying latent vectors with the desired features into two folders. In my example, seperating glasses and no glasses. <br />
-3.) Training a classifier to score the liklieness of glasses or no glasses. <br />
-4.) Feeding these into a linear SVM to find a boundary. <br />
+3.) Training a classifier to score the probability of glasses or no glasses. <br />
+4.) Feeding the latent vectors and corresponding scores into a linear SVM to find a boundary. <br />
 5.) After a boundary is located, take any latent vector and move in the direction of the boundary to modify facial features. <br />
 
 
@@ -28,3 +28,12 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 Apply the latent directions.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/apply_latent_directions.ipynb)
+
+
+Results:
+
+![alt text](https://ibb.co/68b73wM)
+
+![alt text](https://ibb.co/vmKkHBg)
+
+References: 
