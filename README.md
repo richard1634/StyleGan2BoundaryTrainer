@@ -14,14 +14,14 @@ The basic steps include: <br />
 
 To discover how to project a real image using the original StyleGAN2 implementation, run:
 
-1.) Project images to latent space.   
+1.) Project images to latent space.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/Make_latent_vectors.ipynb)
 
-2.) Glasses Classifier   
+2.) Glasses Classifier.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/Glasses_classifier.ipynb)
 
-3.) Latent Space Linear SVM
+3.) Latent Space Linear SVM.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/LatentSpaceLinearSVM.ipynb)
 
