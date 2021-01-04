@@ -61,3 +61,6 @@ I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images <
 Boundary Trainer (University of Hong Kong): https://github.com/genforce/interfacegan <br/>
 Pretrained latent directions to play around with: https://github.com/a312863063/ <br/>
 
+
+<!--Definitions-->
+[stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
