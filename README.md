@@ -10,7 +10,7 @@ The basic steps include: <br />
 4.) Feeding the latent vectors and corresponding scores into a linear SVM to find a boundary. <br />
 5.) After a boundary is located, take any latent vector and move in the direction of the boundary to modify facial features. <br/>
 
-As long as you are willing to hand classify thousands of images, you cant travel in any latent direction to modify any human facial features you wish. Provided you train the StyleGan2 on something, for example cars, you can also modify a car to adopt any feature you wish as well using the same techniques demonstrated here.
+As long as you are willing to hand classify thousands of images, you cant travel in any latent direction to modify any human facial features you wish. Provided you train the StyleGan2 on something else, for example cars, you can also modify a car to adopt any feature you wish as well using the same techniques demonstrated here.
 
 ## Usage
 
@@ -57,8 +57,11 @@ The following is about `W(1,*)`, which is the approach used in the original impl
 #### Open source directions from https://github.com/a312863063/, I see some feature entanglement with glasses and age.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103577012-e0dc8800-4e88-11eb-81b0-f8d522ae0441.png) <br/>
 
-## References: <br/>
+## Ending notes:
 This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. <br/>
+Please feel free to reach out if you have any questions. <br/>
+## References: <br/>
+
 Image projection: https://github.com/rolux/stylegan2encoder <br/>
 I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images <br/>
 Boundary Trainer (University of Hong Kong): https://github.com/genforce/interfacegan <br/>
