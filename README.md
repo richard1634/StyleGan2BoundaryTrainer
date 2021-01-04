@@ -8,7 +8,8 @@ The basic steps include: <br />
 2.) Hand classifying latent vectors with the desired features into two folders. In my example, seperating glasses and no glasses. <br />
 3.) Training a classifier to score the probability of glasses or no glasses. <br />
 4.) Feeding the latent vectors and corresponding scores into a linear SVM to find a boundary. <br />
-5.) After a boundary is located, take any latent vector and move in the direction of the boundary to modify facial features. <br />
+5.) After a boundary is located, take any latent vector and move in the direction of the boundary to modify facial features. <br/>
+
 As long as you are willing to hand classify thousands of images, you cant travel in any latent direction to modify any human facial features you wish. Provided you train the StyleGan2 on something, for example cars, you can also modify a car to adopt any feature you wish as well using the same techniques demonstrated here.
 
 ## Usage
