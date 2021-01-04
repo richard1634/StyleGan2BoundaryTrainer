@@ -30,7 +30,7 @@ Apply the latent directions.
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/apply_latent_directions.ipynb)
 
 
-#Results:
+# Results:
 ## Giving faces glasses
 ## Results using my own latent directions
 ![alt_text](https://user-images.githubusercontent.com/36825309/103576401-ee454280-4e87-11eb-9f3a-834c95145caa.jpg)
