@@ -54,8 +54,13 @@ The following is about `W(1,*)`, which is the approach used in the original impl
 #### Results using my own latent directions.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103576401-ee454280-4e87-11eb-9f3a-834c95145caa.jpg)
 
-#### Open source directions from https://github.com/a312863063/, I see some feature entanglement with glasses and age.
+
+#### Open source directions from [a312863063][os-directions], I see some feature entanglement with glasses and age.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103577012-e0dc8800-4e88-11eb-81b0-f8d522ae0441.png) <br/>
+
+##### I don't have time to hand classify thousands of images so heres some more examples of moving in different latent directions to achieve cool results using [a312863063's open source directions][os-directions].
+##### Smiling
+![alt_text](https://user-images.githubusercontent.com/36825309/103580238-b261ab80-4e8e-11eb-96c6-6924ce0d0124.png) <br/>
 
 ## Ending notes:
 This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. <br/>
@@ -71,3 +76,4 @@ Pretrained latent directions to play around with: https://github.com/a312863063/
 <!--Definitions-->
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [wocts-readme]: <https://github.com/woctezuma/stylegan2-projecting-images/blob/master/README.md>
+[os-directions]: <https://github.com/a312863063/>
