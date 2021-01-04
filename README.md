@@ -58,7 +58,7 @@ The following is about `W(1,*)`, which is the approach used in the original impl
 #### Open source directions from [a312863063][os-directions], I see some feature entanglement with glasses and age; so I think my boundary is better.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103577012-e0dc8800-4e88-11eb-81b0-f8d522ae0441.png) <br/>
 
-#### I don't have time to hand classify thousands of images so heres some more examples of moving in different latent directions to achieve cool results using [a312863063's open source directions][os-directions].
+#### I don't have time to hand classify thousands of images so here's some more examples of moving in different latent directions to achieve cool results using [a312863063's open source directions][os-directions].
 ##### Smiling
 ![alt_text](https://user-images.githubusercontent.com/36825309/103580238-b261ab80-4e8e-11eb-96c6-6924ce0d0124.png) <br/>
 ##### Gender
@@ -66,6 +66,7 @@ The following is about `W(1,*)`, which is the approach used in the original impl
 
 ##### Race - White
 ![alt text](https://user-images.githubusercontent.com/36825309/103581686-56e4ed00-4e91-11eb-83d5-585ef33a4b07.jpg) <br/>
+
 
 ## Ending notes:
 This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. 
