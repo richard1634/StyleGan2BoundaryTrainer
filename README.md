@@ -1,17 +1,14 @@
 # Latent-Space-Boundary-Trainer-for-StyleGan2
 
-This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong.
-
 # Project Overview
 The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to modify facial features using StyleGan2.
-The basic steps include: <br />
 
+The basic steps include: <br />
 1.) Projecting images to latent space using rolux's enconder. reference: https://github.com/rolux/stylegan2encoder <br />
 2.) Hand classifying latent vectors with the desired features into two folders. In my example, seperating glasses and no glasses. <br />
 3.) Training a classifier to score the probability of glasses or no glasses. <br />
 4.) Feeding the latent vectors and corresponding scores into a linear SVM to find a boundary. <br />
 5.) After a boundary is located, take any latent vector and move in the direction of the boundary to modify facial features. <br />
-
 As long as you are willing to hand classify thousands of images, you cant travel in any latent direction to modify any human facial features you wish. Provided you train the StyleGan2 on something, for example cars, you can also modify a car to adopt any feature you wish as well using the same techniques demonstrated here.
 
 ## Usage
@@ -36,14 +33,14 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 
 # Results:
 ## Giving faces glasses
-#### Results using my own latent directions
+#### Results using my own latent directions.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103576401-ee454280-4e87-11eb-9f3a-834c95145caa.jpg)
 
-## Results using my own latent directions
 #### Open source directions from https://github.com/a312863063/, I see some feature entanglement with glasses and age.
 ![alt_text](https://user-images.githubusercontent.com/36825309/103577012-e0dc8800-4e88-11eb-81b0-f8d522ae0441.png) <br/>
 
 ## References: <br/>
+This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. <br/>
 Image projection: https://github.com/rolux/stylegan2encoder <br/>
 I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images <br/>
 Boundary Trainer (University of Hong Kong): https://github.com/genforce/interfacegan <br/>
