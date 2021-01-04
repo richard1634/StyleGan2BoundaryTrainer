@@ -2,6 +2,7 @@
 
 This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong.
 
+# Project Overview
 The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to modify facial features using StyleGan2.
 The basic steps include: <br />
 
