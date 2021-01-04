@@ -1,4 +1,4 @@
-# Latent-Space-Boundary-Trainer-for-StyleGan2
+# Latent Space Boundary Trainer for [StyleGan2][stylegan2] (Modifying facial features using a generative adversarial network)
 
 # Project Overview
 The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to modify facial features using StyleGan2.
@@ -73,7 +73,7 @@ Please feel free to reach out if you have any questions. <br/>
 
 
 ## References: <br/>
-
+StyleGan2 : https://github.com/NVlabs/stylegan2 <br/>
 Image projection: https://github.com/rolux/stylegan2encoder <br/>
 I learned a lot from: https://github.com/woctezuma/stylegan2-projecting-images <br/>
 Boundary Trainer (University of Hong Kong): https://github.com/genforce/interfacegan <br/>
@@ -84,3 +84,4 @@ Pretrained latent directions to play around with: https://github.com/a312863063/
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [wocts-readme]: <https://github.com/woctezuma/stylegan2-projecting-images/blob/master/README.md>
 [os-directions]: <https://github.com/a312863063/>
+[stylegan2]: <https://github.com/NVlabs/stylegan2>
