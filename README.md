@@ -68,7 +68,7 @@ The following is about `W(1,*)`, which is the approach used in the original impl
 ![alt text](https://user-images.githubusercontent.com/36825309/103581686-56e4ed00-4e91-11eb-83d5-585ef33a4b07.jpg) <br/>
 
 ## Ending notes:
-This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. <br/>
+This is a project I decided to start because of my interest in Generative Machine Learning. I am not assosiated with Nvidia nor the university of Hong Kong. 
 Please feel free to reach out if you have any questions. <br/>
 
 
