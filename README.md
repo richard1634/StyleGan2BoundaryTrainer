@@ -1,7 +1,7 @@
 # Latent Space Boundary Trainer for [StyleGan2][stylegan2] (Modifying facial features using a generative adversarial network)
 
 # Project Overview
-The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to modify facial features using StyleGan2.
+The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to create latent direction vectors, used to modify facial features.
 
 The basic steps include: <br />
 1.) Projecting images to latent space using rolux's enconder. reference: https://github.com/rolux/stylegan2encoder <br />
