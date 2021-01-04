@@ -30,6 +30,21 @@ https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Train
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/richard1634/Latent-Space-Boundary-Trainer-for-StyleGan2/blob/master/apply_latent_directions.ipynb)
 
+All projections, classifying, boundary training, and linear intepolation were done using `W(18,512)` dimension latent vectors rather than `W(1,512)` originaly suggestion in the StyleGan2 paper.
+
+For more information about `W(1,*)` and `W(18,*)`, please refer to the [the original paper][stylegan2-paper] (section 5 on page 7):
+
+> Inverting the synthesis network $g$ is an interesting problem that has many applications.
+> Manipulating a given image in the latent feature space requires finding a matching latent code $w$ for it first.
+
+The following is about `W(18,*)`:
+> Previous research suggests that instead of finding a common latent code $w$, the results improve if a separate $w$ is chosen for each layer of the generator.
+> The same approach was used in an early encoder implementation.
+
+The following is about `W(1,*)`, which is the approach used in the original implementation:
+> While extending the latent space in this fashion finds a closer match to a given image, it also enables projecting arbitrary images that should have no latent representation.
+> Instead, we concentrate on finding latent codes in the original, unextended latent space, as these correspond to images that the generator could have produced.
+
 
 # Results:
 ## Giving faces glasses
