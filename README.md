@@ -1,4 +1,4 @@
-# Latent Space Boundary Trainer for [StyleGan2][stylegan2] (Modifying facial features using a generative adversarial network)
+# Latent Space Boundary Trainer for [StyleGan2][stylegan2] (Modifying facial features using a generative adversarial network) by Richard Le
 
 # Project Overview
 The goal of this [Google Colab](https://colab.research.google.com/) notebook is to demonstrate the steps taken to create latent direction vectors, used to modify facial features.
